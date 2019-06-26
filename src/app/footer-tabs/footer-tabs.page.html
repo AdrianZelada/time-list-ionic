@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>footer-tabs</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-segment>
+      <ion-segment-button (ionSelect)="segmentButtonClicked($event)">
+        <ion-label>Item One</ion-label>
+        <ion-icon name="call"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button checked (ionSelect)="segmentButtonClicked($event)">
+        <ion-label>Item Two</ion-label>
+        <ion-icon name="heart"></ion-icon>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-footer>
